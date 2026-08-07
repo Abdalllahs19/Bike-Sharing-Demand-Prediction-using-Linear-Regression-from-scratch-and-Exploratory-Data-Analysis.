@@ -54,7 +54,7 @@ The hourly demand showed a clear **bimodal pattern**:
 
 This was one of the most important findings because it showed that the relationship between `hr` and bike demand is clearly **non-linear**. :contentReference[oaicite:0]{index=0}
 
-![Average Demand by Hour](91f4707f-d14e-42b0-8b5a-a62617d925a3.png)
+![Average Demand by Hour](images/91f4707f-d14e-42b0-8b5a-a62617d925a3.png)
 
 #### 📅 Working Days vs Non-Working Days
 
@@ -65,7 +65,7 @@ Demand behaves differently depending on the type of day.
 
 This indicates that the interaction between `hr` and `workingday` is important when predicting demand. :contentReference[oaicite:1]{index=1}
 
-![Demand by Hour and Working Day](d9ecf259-7872-4ddf-a787-e857bc7e27b2.png)
+![Demand by Hour and Working Day](images/d9ecf259-7872-4ddf-a787-e857bc7e27b2.png)
 
 #### 🌦️ Weather and Season
 
@@ -75,7 +75,7 @@ Weather conditions have a clear effect on bike rental demand.
 - **Clear weather** has the highest demand.
 - Severe weather conditions, such as heavy rain or storms, can reduce demand significantly. :contentReference[oaicite:2]{index=2} :contentReference[oaicite:3]{index=3}
 
-![Weather Effect on Demand](bd418f51-356a-4adb-bde8-13bfa553ebb2.png)
+![Weather Effect on Demand](images/bd418f51-356a-4adb-bde8-13bfa553ebb2.png)
 
 #### 📦 Outliers
 
@@ -83,7 +83,7 @@ The boxplot showed many values above the upper whisker, especially above approxi
 
 However, these values were **not removed**, because they represent real rush-hour demand rather than data errors or random noise. :contentReference[oaicite:4]{index=4}
 
-![Demand Boxplot](d6a00e96-2d48-45e4-9421-993e22c170c5.png)
+![Demand Boxplot](images/d6a00e96-2d48-45e4-9421-993e22c170c5.png)
 
 #### 📈 Target Distribution
 
@@ -217,4 +217,4 @@ Increasing the number of iterations and fixing the convergence issue resulted in
 
 The cost decreased from approximately **27,796** at the beginning of training to approximately **4,523** after 5,000 iterations, showing that the model successfully converged during training.
 
-![Cost Function](15afbd75-ef2f-4a19-b8d7-fc0b7150eb37.png)
+![Cost Function](images/15afbd75-ef2f-4a19-b8d7-fc0b7150eb37.png)
